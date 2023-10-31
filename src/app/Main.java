@@ -13,8 +13,8 @@ public class Main {
         totalSales = 12153.41;
         sales = totalSales / days;
         System.out.printf("Product No 1: %s," +
-                        "\ntotal sales for %d days is %s %.2f," +
-                        "\nsales by day is %s %.2f.\n",
+                        "%ntotal sales for %d days is %s %.2f," +
+                        "%nsales by day is %s %.2f.%n",
                 productName, days, CURRENCY, totalSales, CURRENCY, sales);
 
         productName = "laptop";
@@ -22,8 +22,8 @@ public class Main {
         totalSales = 10486.85;
         sales = totalSales / days;
         System.out.printf("Product No 2: %s," +
-                "\ntotal sales for %d days is %s %.2f," +
-                "\nsales by day is %s %.2f.\n",
+                "%ntotal sales for %d days is %s %.2f," +
+                "%nsales by day is %s %.2f.%n",
                 productName, days, CURRENCY, totalSales, CURRENCY, sales);
 
     }
